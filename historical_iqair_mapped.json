@@ -1,0 +1,91 @@
+[
+    {
+        "timestamp": "2025-05-26T15:14:40.243377",
+        "data": {
+            "12": {
+                "status": "success",
+                "data": {
+                    "region_id": 12,
+                    "region": "South England",
+                    "cities_count": 1,
+                    "current": {
+                        "weather": {
+                            "hu": 66,
+                            "pr": 1017,
+                            "tp": 16,
+                            "wd": 220,
+                            "ws": 10.8
+                        },
+                        "pollution": {
+                            "aqius": 41,
+                            "aqicn": 16
+                        }
+                    }
+                }
+            },
+            "10": {
+                "status": "success",
+                "data": {
+                    "region_id": 10,
+                    "region": "East England",
+                    "cities_count": 1,
+                    "current": {
+                        "weather": {
+                            "hu": 62,
+                            "pr": 1013,
+                            "tp": 17,
+                            "wd": 245,
+                            "ws": 6.52
+                        },
+                        "pollution": {
+                            "aqius": 28,
+                            "aqicn": 21
+                        }
+                    }
+                }
+            },
+            "14": {
+                "status": "success",
+                "data": {
+                    "region_id": 14,
+                    "region": "South East England",
+                    "cities_count": 1,
+                    "current": {
+                        "weather": {
+                            "hu": 49,
+                            "pr": 1016,
+                            "tp": 17,
+                            "wd": 202,
+                            "ws": 2.68
+                        },
+                        "pollution": {
+                            "aqius": 18,
+                            "aqicn": 5
+                        }
+                    }
+                }
+            },
+            "5": {
+                "status": "success",
+                "data": {
+                    "region_id": 5,
+                    "region": "Yorkshire",
+                    "cities_count": 2,
+                    "current": {
+                        "weather": {
+                            "hu": 62.5,
+                            "pr": 1010,
+                            "tp": 13,
+                            "wd": 250.5,
+                            "ws": 7.74
+                        },
+                        "pollution": {
+                            "aqius": 29,
+                            "aqicn": 22
+                        }
+                    }
+                }
+            }
+        }
+    }
+]
