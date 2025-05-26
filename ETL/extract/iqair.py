@@ -3,7 +3,7 @@ import json
 import time
 from .uk_cities import get_uk_cities_excluding_ni
 
-API_KEY = '89a9f1da-5c5e-4474-a393-d3cc1b05bbb8'  # Your actual API key
+API_KEY = ''  # Your actual API key
 
 def extract_iqair_data():
     """Extract air quality data for UK cities and save to JSON file."""
