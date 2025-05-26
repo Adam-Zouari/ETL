@@ -1,9 +1,18 @@
 import requests
 import json
 import time
+import os
+from dotenv import load_dotenv
 from .uk_cities import get_uk_cities_excluding_ni
 
-API_KEY = ''  # Your actual API key
+# Load environment variables from .env file
+load_dotenv()
+
+# Get API key from environment variable
+API_KEY = os.getenv('IQAIR_API_KEY')
+
+if not API_KEY:
+    raise ValueError("IQAIR_API_KEY not found in environment variables. Please check your .env file.")
 
 def extract_iqair_data():
     """Extract air quality data for UK cities and save to JSON file."""
