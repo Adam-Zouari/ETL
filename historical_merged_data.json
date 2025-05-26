@@ -1,0 +1,247 @@
+[
+    {
+        "timestamp": "2025-05-26T15:14:40.247534",
+        "data": {
+            "12": {
+                "region_id": 12,
+                "region": "South England",
+                "cities_count": 1,
+                "weather": {
+                    "hu": 66,
+                    "pr": 1017,
+                    "tp": 16,
+                    "wd": 220,
+                    "ws": 10.8
+                },
+                "pollution": {
+                    "aqius": 41,
+                    "aqicn": 16
+                },
+                "intensity": {
+                    "forecast": 80,
+                    "index": "low"
+                },
+                "generationmix": [
+                    {
+                        "fuel": "biomass",
+                        "perc": 3.3
+                    },
+                    {
+                        "fuel": "coal",
+                        "perc": 0
+                    },
+                    {
+                        "fuel": "imports",
+                        "perc": 0.1
+                    },
+                    {
+                        "fuel": "gas",
+                        "perc": 19.2
+                    },
+                    {
+                        "fuel": "nuclear",
+                        "perc": 8.1
+                    },
+                    {
+                        "fuel": "other",
+                        "perc": 0
+                    },
+                    {
+                        "fuel": "hydro",
+                        "perc": 0
+                    },
+                    {
+                        "fuel": "solar",
+                        "perc": 32.7
+                    },
+                    {
+                        "fuel": "wind",
+                        "perc": 36.6
+                    }
+                ],
+                "from": "2025-05-26T13:30Z",
+                "to": "2025-05-26T14:00Z"
+            },
+            "10": {
+                "region_id": 10,
+                "region": "East England",
+                "cities_count": 1,
+                "weather": {
+                    "hu": 62,
+                    "pr": 1013,
+                    "tp": 17,
+                    "wd": 245,
+                    "ws": 6.52
+                },
+                "pollution": {
+                    "aqius": 28,
+                    "aqicn": 21
+                },
+                "intensity": {
+                    "forecast": 46,
+                    "index": "low"
+                },
+                "generationmix": [
+                    {
+                        "fuel": "biomass",
+                        "perc": 0.6
+                    },
+                    {
+                        "fuel": "coal",
+                        "perc": 0
+                    },
+                    {
+                        "fuel": "imports",
+                        "perc": 6.2
+                    },
+                    {
+                        "fuel": "gas",
+                        "perc": 4.1
+                    },
+                    {
+                        "fuel": "nuclear",
+                        "perc": 19.4
+                    },
+                    {
+                        "fuel": "other",
+                        "perc": 0
+                    },
+                    {
+                        "fuel": "hydro",
+                        "perc": 0
+                    },
+                    {
+                        "fuel": "solar",
+                        "perc": 21.1
+                    },
+                    {
+                        "fuel": "wind",
+                        "perc": 48.6
+                    }
+                ],
+                "from": "2025-05-26T13:30Z",
+                "to": "2025-05-26T14:00Z"
+            },
+            "14": {
+                "region_id": 14,
+                "region": "South East England",
+                "cities_count": 1,
+                "weather": {
+                    "hu": 49,
+                    "pr": 1016,
+                    "tp": 17,
+                    "wd": 202,
+                    "ws": 2.68
+                },
+                "pollution": {
+                    "aqius": 18,
+                    "aqicn": 5
+                },
+                "intensity": {
+                    "forecast": 96,
+                    "index": "low"
+                },
+                "generationmix": [
+                    {
+                        "fuel": "biomass",
+                        "perc": 0.2
+                    },
+                    {
+                        "fuel": "coal",
+                        "perc": 0
+                    },
+                    {
+                        "fuel": "imports",
+                        "perc": 1.8
+                    },
+                    {
+                        "fuel": "gas",
+                        "perc": 22.1
+                    },
+                    {
+                        "fuel": "nuclear",
+                        "perc": 5.4
+                    },
+                    {
+                        "fuel": "other",
+                        "perc": 0
+                    },
+                    {
+                        "fuel": "hydro",
+                        "perc": 0.4
+                    },
+                    {
+                        "fuel": "solar",
+                        "perc": 25.1
+                    },
+                    {
+                        "fuel": "wind",
+                        "perc": 45.1
+                    }
+                ],
+                "from": "2025-05-26T13:30Z",
+                "to": "2025-05-26T14:00Z"
+            },
+            "5": {
+                "region_id": 5,
+                "region": "Yorkshire",
+                "cities_count": 2,
+                "weather": {
+                    "hu": 62.5,
+                    "pr": 1010,
+                    "tp": 13,
+                    "wd": 250.5,
+                    "ws": 7.74
+                },
+                "pollution": {
+                    "aqius": 29,
+                    "aqicn": 22
+                },
+                "intensity": {
+                    "forecast": 34,
+                    "index": "low"
+                },
+                "generationmix": [
+                    {
+                        "fuel": "biomass",
+                        "perc": 15.6
+                    },
+                    {
+                        "fuel": "coal",
+                        "perc": 0
+                    },
+                    {
+                        "fuel": "imports",
+                        "perc": 0
+                    },
+                    {
+                        "fuel": "gas",
+                        "perc": 3.9
+                    },
+                    {
+                        "fuel": "nuclear",
+                        "perc": 13.6
+                    },
+                    {
+                        "fuel": "other",
+                        "perc": 0
+                    },
+                    {
+                        "fuel": "hydro",
+                        "perc": 0
+                    },
+                    {
+                        "fuel": "solar",
+                        "perc": 8.3
+                    },
+                    {
+                        "fuel": "wind",
+                        "perc": 58.4
+                    }
+                ],
+                "from": "2025-05-26T13:30Z",
+                "to": "2025-05-26T14:00Z"
+            }
+        }
+    }
+]
