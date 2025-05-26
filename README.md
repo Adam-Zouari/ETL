@@ -59,7 +59,11 @@ cd DE_DA
 pip install -r requirements.txt
 ```
 
-3. Configure API keys and MongoDB connection (see Configuration section)
+3. Configure environment variables:
+```bash
+cp .env.example .env
+# Edit .env file with your actual API keys and MongoDB connection
+```
 
 4. Run the pipeline:
 ```bash
@@ -70,17 +74,29 @@ python pipeline.py
 
 ### Environment Variables
 
-Create a `.env` file or set environment variables:
+Copy the example environment file and configure your settings:
+
+```bash
+cp .env.example .env
+```
+
+Then edit the `.env` file with your actual values:
 
 ```bash
 # IQAir API Configuration
-IQAIR_API_KEY=your_iqair_api_key_here
+IQAIR_API_KEY=your_actual_iqair_api_key_here
 
 # MongoDB Atlas Configuration (optional)
-MONGODB_CONNECTION_STRING=mongodb+srv://username:password@cluster.mongodb.net/
-MONGODB_DATABASE=Climate_Change
-MONGODB_COLLECTION=Climate
+MONGODB_CONNECTION_STRING=mongodb+srv://username:password@cluster.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+MONGODB_DATABASE_NAME=Climate_Change
 ```
+
+**Required:**
+- `IQAIR_API_KEY`: Get your free API key from [IQAir](https://www.iqair.com/air-pollution-data-api)
+
+**Optional:**
+- `MONGODB_CONNECTION_STRING`: For cloud storage (MongoDB Atlas)
+- `MONGODB_DATABASE_NAME`: Database name (defaults to "Climate_Change")
 
 ### Pipeline Settings
 
