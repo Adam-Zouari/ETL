@@ -1,0 +1,167 @@
+{
+    "Worthing": {
+        "status": "success",
+        "data": {
+            "city": "Broadwater",
+            "state": "England",
+            "country": "United Kingdom",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    -0.37594,
+                    50.82887
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-26T13:00:00.000Z",
+                    "aqius": 41,
+                    "mainus": "p2",
+                    "aqicn": 16,
+                    "maincn": "p1"
+                },
+                "weather": {
+                    "ts": "2025-05-26T14:00:00.000Z",
+                    "ic": "02d",
+                    "hu": 66,
+                    "pr": 1017,
+                    "tp": 16,
+                    "wd": 220,
+                    "ws": 10.8
+                }
+            }
+        }
+    },
+    "Wretham": {
+        "status": "success",
+        "data": {
+            "city": "Wretham",
+            "state": "England",
+            "country": "United Kingdom",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    0.814722,
+                    52.462778
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-26T12:00:00.000Z",
+                    "aqius": 28,
+                    "mainus": "p2",
+                    "aqicn": 21,
+                    "maincn": "o3"
+                },
+                "weather": {
+                    "ts": "2025-05-26T14:00:00.000Z",
+                    "ic": "04d",
+                    "hu": 62,
+                    "pr": 1013,
+                    "tp": 17,
+                    "wd": 245,
+                    "ws": 6.52
+                }
+            }
+        }
+    },
+    "Yalding": {
+        "status": "success",
+        "data": {
+            "city": "Yalding",
+            "state": "England",
+            "country": "United Kingdom",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    0.4292,
+                    51.22387
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-26T14:00:00.000Z",
+                    "aqius": 18,
+                    "mainus": "p2",
+                    "aqicn": 5,
+                    "maincn": "p2"
+                },
+                "weather": {
+                    "ts": "2025-05-26T14:00:00.000Z",
+                    "ic": "04d",
+                    "hu": 49,
+                    "pr": 1016,
+                    "tp": 17,
+                    "wd": 202,
+                    "ws": 2.68
+                }
+            }
+        }
+    },
+    "Yeadon": {
+        "status": "success",
+        "data": {
+            "city": "Yeadon",
+            "state": "England",
+            "country": "United Kingdom",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    -1.68743,
+                    53.86437
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-26T12:00:00.000Z",
+                    "aqius": 30,
+                    "mainus": "o3",
+                    "aqicn": 23,
+                    "maincn": "o3"
+                },
+                "weather": {
+                    "ts": "2025-05-26T14:00:00.000Z",
+                    "ic": "09d",
+                    "hu": 67,
+                    "pr": 1010,
+                    "tp": 12,
+                    "wd": 250,
+                    "ws": 7.2
+                }
+            }
+        }
+    },
+    "York": {
+        "status": "success",
+        "data": {
+            "city": "York",
+            "state": "England",
+            "country": "United Kingdom",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    -1.085679,
+                    53.963805
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-26T14:00:00.000Z",
+                    "aqius": 28,
+                    "mainus": "o3",
+                    "aqicn": 21,
+                    "maincn": "o3"
+                },
+                "weather": {
+                    "ts": "2025-05-26T14:00:00.000Z",
+                    "ic": "04d",
+                    "hu": 58,
+                    "pr": 1010,
+                    "tp": 14,
+                    "wd": 251,
+                    "ws": 8.28
+                }
+            }
+        }
+    }
+}
