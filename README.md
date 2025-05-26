@@ -167,17 +167,6 @@ Core dependencies (see `requirements.txt`):
 - `requests>=2.25.0`: HTTP API calls
 - `python-dotenv>=0.19.0`: Environment variable management
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🆘 Support
 
