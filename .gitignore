@@ -1,2 +1,4 @@
 __pycache__/
-ETL/extract/__pyache__/
+ETL/extract/__pycache__/
+ETL/transform/__pycache__/
+ETL/load/__pycache__/
